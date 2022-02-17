@@ -7,3 +7,5 @@ fields:
   config:
     required: false
   label: Title
+pages:
+- src/posts/mon-tout-premier-article-avec-forestry.md
