@@ -1,0 +1,9 @@
+---
+layout: layout.njk
+---
+
+<h1>Eleventy blog</h1>
+
+{% for post in collections.posts %}
+    <a href="{{ post.url | url }}">{{ post.data.title }}</a>
+{% endfor %}
