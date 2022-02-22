@@ -1,0 +1,301 @@
+* {
+    font-family: 'Lato', sans-serif;
+}
+
+/* ==========================================
+  HEADER
+  ==========================================*/
+header .site-branding {
+    padding: 40px 0;
+    text-align: center;
+}
+
+header .site-branding h1 {
+    font-family: Lato, sans-serif;
+    font-weight: 300;
+    font-size: 64px;
+    font-size: 4rem;
+    letter-spacing: 4px;
+    line-height: normal;
+    margin: 0;
+    text-align: center;
+    text-transform: uppercase;
+    word-break: break-all;
+    word-break: break-word;
+}
+
+header .site-branding h1 a {
+    color: #2d2d2d;
+    text-decoration: none;
+}
+
+header .site-branding h1 p {
+    font-size: .9333rem;
+    line-height: 1.7142;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.top-bar {
+    border-top: 1px solid #ebebeb;
+    border-bottom: 1px solid #ebebeb;
+    margin-bottom: 20px;
+}
+
+.top-bar nav {
+    line-height: 0;
+    float: left;
+}
+
+.top-bar nav .menu-top-container {
+    display: inline-block;
+}
+
+.top-bar nav .menu-top-container ul {
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+}
+
+.top-bar nav .menu-top-container ul .menu-item {
+    float: left;
+    padding: 2px 45px 0 0;
+    position: relative;
+}
+
+.top-bar nav .menu-top-container ul .menu-item a {
+    text-transform: uppercase;
+    color: #626262;
+    font-family: Lato, sans-serif;
+    font-size: 12.8px;
+    font-size: .8rem;
+    letter-spacing: 1px;
+    line-height: 60px;
+    display: block;
+    text-decoration: none;
+}
+
+@media screen and (min-width: 769px) {
+    .top-bar .menu-toggle {
+        display: none;
+    }
+
+    .top-bar nav .menu-top-container ul {
+        display: block;
+    }
+}
+
+/* ==========================================
+  FOOTER
+  ==========================================*/
+footer.site-footer {
+    margin-top: 80px;
+}
+
+footer.site-footer .site-info {
+    border-top: 1px solid #ebebeb;
+    color: #626262;
+    font-size: 13.8656px;
+    font-size: .8666rem;
+    padding: 45px 0;
+    text-align: center;
+}
+
+/* ==========================================
+  HOMEPAGE
+  ==========================================*/
+.custom-article {
+    border-bottom: 2px solid #f4f4f4;
+    margin-bottom: 3em;
+}
+
+.custom-article .article-title {
+    color: #2d2d2d;
+    line-height: normal;
+    margin: 0.5em 0 25px;
+    text-align: center;
+}
+
+.custom-article .article-thumbnail {
+    vertical-align: middle;
+    margin: 25px 0 0 0;
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+}
+
+.custom-article .card-footer img {
+    border-radius: 50%;
+    float: left;
+    width: 50px;
+}
+
+.custom-article .card-footer .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.custom-article .card-footer .container p {
+    margin: 0;
+}
+
+/* ASIDE */
+.aside-container {
+    margin: 20px 0;
+}
+
+.aside-container .aside-list {
+    list-style: none;
+    margin: 0;
+}
+
+.aside-container .aside-list li {
+    border-bottom: 1px solid #f4f4f4;
+    font-size: 13px;
+    line-height: normal;
+    padding: 0.75rem 0 0.25rem 0;
+}
+
+.aside-container .aside-list li a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.aside-container .aside-title {
+    color: #626262;
+    font-size: 13px;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+/* ==========================================
+  BLOG POST
+  ==========================================*/
+.blog-post {
+    background: #ffffff;
+    color: #222;
+    margin: auto;
+    padding: 0 2em;
+    width: 62em;
+    line-height: 1.5em;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+/* SUMMARY */
+.blog-post div.blog-post-summary {
+    width: 100%;
+    border: none;
+    border-radius: 20px;
+    background: #FAFBFF !important;
+    padding: 30px;
+}
+
+.blog-post div.blog-post-summary .summary-title {
+    color: #2F1C6A;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 28px;
+    text-align: left !important;
+    margin-left: 1rem !important;
+}
+
+.blog-post div.blog-post-summary ul.summary-container {
+    margin-left: 2rem;
+}
+
+.blog-post div.blog-post-summary ul.summary-container li {
+    list-style: none;
+    font-size: 18px;
+}
+
+.blog-post div.blog-post-summary ul.summary-container li a {
+    color: #84c6ff;
+    text-decoration: none;
+}
+
+/* TITLES */
+.blog-post .blog-post-title {
+    font-size: 42px;
+    text-align: center;
+}
+
+.blog-post h1, .blog-post h2, .blog-post h3, .blog-post h4, .blog-post h5, .blog-post h6 {
+    line-height: 120%;
+    font-weight: 700;
+    color: #2F1C6A;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+
+/* PARAGRAPHS */
+.blog-post p.blog-post-content {
+    text-align: justify;
+    margin: 1em 0;
+}
+
+/* LINKS */
+.blog-post p.blog-post-content a {
+    color: #84c6ff;
+    text-decoration: underline;
+}
+
+.blog-post p.blog-post-content a:hover {
+    color: #6c757d;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* IMAGES */
+.blog-post img {
+    box-shadow: 1px 10px 0 rgb(0 0 0 / 15%);
+}
+
+/* ==========================================
+  CONTACT
+  ==========================================*/
+.contact-title {
+    width: auto;
+    text-align: center;
+    line-height: 120%;
+    font-weight: 700;
+    color: #2F1C6A;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.contact-information-container {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.contact-information-container .contact-information {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-information-container .contact-information .contact-information-icon {
+    max-width: 40px;
+}
+
+.contact-information-container .contact-information-text {
+    margin-top: 20px;
+}
+
+.contact-form {
+    background-color: #fbfbfb;
+    padding: 20px;
+    box-shadow: 0 3px 6px rgb(0 0 0 / 15%);
+    border: 1px solid #ebebeb;
+    border-radius: 20px;
+}
+
+.contact-form small {
+    font-size: 0.75em;
+}
