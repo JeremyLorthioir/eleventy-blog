@@ -40,6 +40,7 @@ header .site-branding h1 p {
     border-top: 1px solid #ebebeb;
     border-bottom: 1px solid #ebebeb;
     margin-bottom: 20px;
+    width: 100%;
 }
 
 .top-bar nav {
@@ -107,6 +108,10 @@ footer.site-footer .site-info {
 .custom-article {
     border-bottom: 2px solid #f4f4f4;
     margin-bottom: 3em;
+}
+
+.custom-article a:hover {
+    text-decoration: none;
 }
 
 .custom-article .article-title {
