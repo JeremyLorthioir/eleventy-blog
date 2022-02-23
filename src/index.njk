@@ -1,34 +1,40 @@
---- layout: layout.njk ---
+--- 
+layout: layout.njk 
+---
 
 <h1>Eleventy blog</h1>
 
 <div class="container">
     <div class="row">
         <div class="col-md-9">
-            {% for post in collections.posts %}
-                <div class="col-md-6">
-                    <article class="custom-article">
-                        <a href="{{ post.url | url }}">
-                            <img class="article-thumbnail img-responsive" src="{{ post.data.header_picture }}" alt="photo">
-                            <header>
-                                <h2 class="article-title">
-                                    {{post.data.title}}</h2>
-                            </header>
-                            <div class="article-content">
-                                <p>
-                                    {{ post.data.summary }}</p>
-                            </div>
-                            <div class="card-footer text-muted d-flex justify-content-between bg-transparent border-top-0">
-                                <img style="border-radius: 50%; float: left;" src="{{ post.data.publisher_picture }}" alt="Avatar of Jonathan Reinink">
-                                <div class="container">
-                                    <p class="text-gray-900 leading-none">Jonathan Reinink</p>
-                                    <p class="text-gray-600">Aug 18</p>
+            <div class="row">
+                {% for post in collections.posts %}
+                    <div class="col-md-6">
+                        <article class="custom-article">
+                            <a href="{{ post.url | url }}">
+                                <img class="article-thumbnail img-responsive" src="{{ post.data.header_picture }}" alt="photo">
+                                <header>
+                                    <h2 class="article-title">
+                                        {{post.data.title}}</h2>
+                                </header>
+                                <div class="article-content">
+                                    <p>
+                                        {{ post.data.summary }}</p>
                                 </div>
-                            </div>
-                        </a>
-                    </article>
-                </div>
-            {% endfor %}
+                                <div class="card-footer text-muted d-flex justify-content-between bg-transparent border-top-0">
+                                    <img style="border-radius: 50%; float: left;" src="{{ post.data.publisher_picture }}" alt="Avatar of Jonathan Reinink">
+                                    <div class="container">
+                                        <p class="text-gray-900 leading-none">{{ post.data.publisher_name }}</p>
+                                        <p class="text-gray-600">
+                                            {{ post.data.publication_date.getDate() }}/{{ post.data.publication_date.getMonth() + 1 }}/{{ post.data.publication_date.getFullYear() }}
+                                            </p>
+                                    </div>
+                                </div>
+                            </a>
+                        </article>
+                    </div>
+                {% endfor %}
+            </div>
         </div>
         <div class="col-md-3">
             <aside class="aside-container">
