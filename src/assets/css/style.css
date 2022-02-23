@@ -110,8 +110,13 @@ footer.site-footer .site-info {
     margin-bottom: 3em;
 }
 
+.custom-article a {
+    color: initial;
+}
+
 .custom-article a:hover {
     text-decoration: none;
+    color: initial;
 }
 
 .custom-article .article-title {
@@ -132,7 +137,9 @@ footer.site-footer .site-info {
 .custom-article .card-footer img {
     border-radius: 50%;
     float: left;
+    height: 50px;
     width: 50px;
+    object-fit: cover;
 }
 
 .custom-article .card-footer .container {
