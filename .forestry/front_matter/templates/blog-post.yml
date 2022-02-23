@@ -36,4 +36,5 @@ fields:
       format: markdown
   label: summary
 pages:
+- src/posts/le-petit-dejeuner-du-developpeur.md
 - src/posts/mon-tout-premier-article-avec-forestry.md
