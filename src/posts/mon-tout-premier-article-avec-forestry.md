@@ -1,6 +1,6 @@
 ---
-title: Mon tout premier article avec forestry
-publication_date: 2022-02-21T23:00:00Z
+title: Le café créé-t-il de meilleurs développeurs ?
+publication_date: 2022-02-21T23:00:00.000+00:00
 publisher_picture: "/uploads/avatar.jpeg"
 header_picture: "/uploads/coffee-card-left.jpeg"
 summary: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia,
