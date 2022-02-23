@@ -16,6 +16,12 @@ fields:
     date_format: 
     time_format: 
     display_utc: false
+- name: publisher_name
+  type: text
+  config:
+    required: false
+  label: Publisher name
+  default: Jérémy Lorthioir
 - name: publisher_picture
   type: file
   config:
@@ -35,6 +41,10 @@ fields:
     schema:
       format: markdown
   label: summary
+- name: tags
+  type: tag_list
+  default: []
+  label: Tags
 pages:
 - src/posts/le-petit-dejeuner-du-developpeur.md
 - src/posts/mon-tout-premier-article-avec-forestry.md
