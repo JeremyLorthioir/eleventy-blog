@@ -5,6 +5,8 @@ publisher_picture: "/uploads/pexels-pixabay-220453.jpg"
 header_picture: "/uploads/coffee-card-left.jpeg"
 summary: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia,
   nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
+publisher_name: Jérémy Lorthioir
+tags: []
 
 ---
 Bonjour ceci est un premier article, soyez indulgents
