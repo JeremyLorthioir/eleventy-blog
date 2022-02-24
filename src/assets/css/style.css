@@ -243,18 +243,18 @@ footer.site-footer .site-info {
 
 
 /* PARAGRAPHS */
-.blog-post p.blog-post-content {
+.blog-post p {
     text-align: justify;
     margin: 1em 0;
 }
 
 /* LINKS */
-.blog-post p.blog-post-content a {
+.blog-post p a {
     color: #84c6ff;
     text-decoration: underline;
 }
 
-.blog-post p.blog-post-content a:hover {
+.blog-post p a:hover {
     color: #6c757d;
     text-decoration: none;
     cursor: pointer;
