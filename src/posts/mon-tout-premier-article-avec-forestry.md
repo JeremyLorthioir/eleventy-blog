@@ -12,19 +12,4 @@ tags: []
 
 Bonjour ceci est un premier article, soyez indulgents
 
-{{% summary %}}
-<div class="blog-post-summary">
-<p class="summary-title">Sommaire</p>
-<ul class="summary-container">
-<li>
-<a href="#link1">Premier chapitre</a>
-</li>
-<li>
-<a href="#">Les bases de HTML</a>
-</li>
-<li>
-<a href="#">Encore un chapitre</a>
-</li>
-</ul>
-</div>
-{{% /summary %}}
+ <div class="blog-post-summary"> <p class="summary-title">Sommaire</p> <ul class="summary-container"> <li> <a href="#link1">Premier chapitre</a> </li> <li> <a href="#">Les bases de HTML</a> </li> <li> <a href="#">Encore un chapitre</a> </li> </ul> </div>
