@@ -13,3 +13,11 @@ tags: []
 Bonjour ceci est un premier article, soyez indulgents
 
  <div class="blog-post-summary"> <p class="summary-title">Sommaire</p> <ul class="summary-container"> <li> <a href="#link1">Premier chapitre</a> </li> <li> <a href="#">Les bases de HTML</a> </li> <li> <a href="#">Encore un chapitre</a> </li> </ul> </div>
+
+Ceci est a nouveau [un lien](google.fr "un lien encore"). 
+
+Maintenant essayons un peu de javascript : 
+
+    function coucou(){
+    	console.log("Hello World!");
+    }
