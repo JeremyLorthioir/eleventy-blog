@@ -18,13 +18,13 @@ Ceci est a nouveau [un lien](google.fr "un lien encore").
 Maintenant essayons un peu de javascript :
 
     function coucou(){
-    console.log("Hello World!");
+    	console.log("Hello World!");
     }
 
 remettons un peu de texte
 
     .test {
-    background-color: blue; 
+    	background-color: blue; 
     }
 
 et juste apres on met du css
