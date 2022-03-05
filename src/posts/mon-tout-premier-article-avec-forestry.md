@@ -25,6 +25,7 @@ remettons un peu de texte
 
     .test {
     	background-color: blue; 
+        color: #FFF;
     }
 
 et juste apres on met du css
