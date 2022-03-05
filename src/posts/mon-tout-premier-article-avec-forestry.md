@@ -20,3 +20,7 @@ Maintenant essayons un peu de javascript :
     function coucou(){
     	console.log("Hello World!");
     }
+
+    .test {
+    	background-color: blue; 
+    }
