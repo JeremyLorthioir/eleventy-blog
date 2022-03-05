@@ -130,7 +130,7 @@ footer.site-footer .site-info {
     vertical-align: middle;
     margin: 25px 0 0 0;
     width: 100%;
-    max-height: 400px;
+    height: 350px;
     object-fit: cover;
 }
 
