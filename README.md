@@ -13,7 +13,7 @@
 <br />
 <div align="center">
 
-<h3 align="center">project_title</h3>
+<h3 align="center">Eleventy-blog</h3>
 
   <p align="center">
     project_description
@@ -33,51 +33,54 @@
 <!-- ABOUT THE PROJECT -->
 ## A propos du projet
 
-[![Product Name Screen Shot][product-screenshot]](https://jerem-dev.vercel.app/)
+[![Jerem Dev Screen Shot][product-screenshot]](https://jerem-dev.vercel.app/)
 
 
 
 ### Built With
 
-* [Next.js](https://nextjs.org/)
-* [React.js](https://reactjs.org/)
-* [Vue.js](https://vuejs.org/)
-* [Angular](https://angular.io/)
-* [Svelte](https://svelte.dev/)
-* [Laravel](https://laravel.com)
+* [Eleventy](https://www.11ty.dev/)
+* [Forestry.io](https://forestry.io/)
+* [Highlight.js](https://highlightjs.org/)
 * [Bootstrap](https://getbootstrap.com)
-* [JQuery](https://jquery.com)
 
 
 <!-- GETTING STARTED -->
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
-
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
 * npm
   ```sh
   npm install npm@latest -g
   ```
 
+* eleventy
+  ```sh
+  npm install @11ty/eleventy --save-dev
+  ```
+
+
 ### Installation
 
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
+1. Clone the repo
    ```sh
    git clone https://github.com/JeremyLorthioir/eleventy-blog.git
    ```
-3. Install NPM packages
+2. Install NPM packages
    ```sh
    npm install
    ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
+3. Build the HTML pages using Eleventy
+    ```sh
+   eleventy
    ```
+4. Run a local server to preview your future changes
+    ```sh
+   eleventy --serve
+   ```
+   Your server is now live on http://localhost:8080/. CONGRATULATIONS ! 
+   
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
