@@ -16,13 +16,8 @@
 <h3 align="center">Eleventy-blog</h3>
 
   <p align="center">
-    project_description
+    - Jerem Dev blog source code -
     <br />
-    <a href="https://github.com/JeremyLorthioir/eleventy-blog"><strong>Explore the docs »</strong></a>
-    <br />
-    <br />
-    <a href="https://github.com/JeremyLorthioir/eleventy-blog">View Demo</a>
-    ·
     <a href="https://github.com/JeremyLorthioir/eleventy-blog/issues">Report Bug</a>
     ·
     <a href="https://github.com/JeremyLorthioir/eleventy-blog/issues">Request Feature</a>
@@ -31,7 +26,7 @@
 
 
 <!-- ABOUT THE PROJECT -->
-## A propos du projet
+## ABOUT THE PROJECT
 
 [![Jerem Dev Screen Shot][product-screenshot]](https://jerem-dev.vercel.app/)
 
@@ -80,14 +75,6 @@
    eleventy --serve
    ```
    Your server is now live on http://localhost:8080/. CONGRATULATIONS ! 
-   
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-
-
-<!-- USAGE EXAMPLES -->
-## Usage
 
 <!-- LICENSE -->
 ## License
@@ -113,7 +100,7 @@ Project Link: [https://github.com/JeremyLorthioir/eleventy-blog](https://github.
 [issues-shield]: https://img.shields.io/github/issues/JeremyLorthioir/eleventy-blog.svg?style=for-the-badge
 [issues-url]: https://github.com/JeremyLorthioir/eleventy-blog/issues
 [license-shield]: https://img.shields.io/github/license/JeremyLorthioir/eleventy-blog.svg?style=for-the-badge
-[license-url]: https://github.com/JeremyLorthioir/eleventy-blog/blob/master/LICENSE.txt
+[license-url]: https://github.com/JeremyLorthioir/eleventy-blog/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/linkedin_username
+[linkedin-url]: https://linkedin.com/in/jérémy-lorthioir/
 [product-screenshot]: images/screenshot.png
