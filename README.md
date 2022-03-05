@@ -100,7 +100,7 @@ Project Link: [https://github.com/JeremyLorthioir/eleventy-blog](https://github.
 [issues-shield]: https://img.shields.io/github/issues/JeremyLorthioir/eleventy-blog.svg?style=for-the-badge
 [issues-url]: https://github.com/JeremyLorthioir/eleventy-blog/issues
 [license-shield]: https://img.shields.io/github/license/JeremyLorthioir/eleventy-blog.svg?style=for-the-badge
-[license-url]: https://github.com/JeremyLorthioir/eleventy-blog/LICENSE.txt
+[license-url]: https://github.com/JeremyLorthioir/eleventy-blog/blob/main/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/jérémy-lorthioir/
 [product-screenshot]: images/screenshot.png
