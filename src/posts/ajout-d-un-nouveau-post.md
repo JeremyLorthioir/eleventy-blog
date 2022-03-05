@@ -6,7 +6,7 @@ tags:
 title: Ajout d'un nouveau post
 publication_date: 2022-03-30T22:00:00Z
 publisher_picture: "/uploads/pexels-pixabay-220453.jpg"
-header_picture: "/uploads/pexels-pixabay-270348.jpg"
+header_picture: "/uploads/pexels-pixabay-270360.jpg"
 summary: Petite sommaire des familles. Penser a acheter du lait et a faire le style
   des tags
 
