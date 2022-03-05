@@ -21,6 +21,10 @@ Maintenant essayons un peu de javascript :
     	console.log("Hello World!");
     }
 
+remettons un peu de texte
+
     .test {
     	background-color: blue; 
     }
+
+et juste apres on met du css
