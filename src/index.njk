@@ -5,12 +5,13 @@ layout: layout.njk
 <h1>Eleventy blog</h1>
 
 <div class="container">
-    <div class="row">
-        <div class="col-md-9">
+    {# <div class="row">
+        <div class="col-md-9"> #}
             <div class="row">
                 {% for post in collections.posts %}
-                    <div class="col-md-6">
-                        <article class="custom-article">
+                    {# <div class="col-md-6"> #}
+                    {# <div class="col-md-4"> #}
+                        <article class="custom-article col-md-4">
                             <a href="{{ post.url | url }}">
                                 <img class="article-thumbnail img-responsive" src="{{ post.data.header_picture }}" alt="photo">
                                 <header>
@@ -37,10 +38,10 @@ layout: layout.njk
                                 </div>
                             </a>
                         </article>
-                    </div>
+                    {# </div> #}
                 {% endfor %}
             </div>
-        </div>
+       {# </div>
         <div class="col-md-3">
             <aside class="aside-container">
                 <h2 class="aside-title">Categories</h2>
@@ -65,5 +66,5 @@ layout: layout.njk
                 </ul>
             </aside>
         </div>
-    </div>
+    </div> #}
 </div>
