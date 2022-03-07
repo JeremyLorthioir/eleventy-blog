@@ -8,5 +8,8 @@ publisher_name: Jérémy Lorthioir
 tags:
 - Cuisine
 - Dev Life
+categories:
+- Test
+- Javascript
 
 ---
