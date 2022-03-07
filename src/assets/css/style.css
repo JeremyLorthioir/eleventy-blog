@@ -134,6 +134,15 @@ footer.site-footer .site-info {
     object-fit: cover;
 }
 
+.custom-article .article-tags-container .article-tag {
+    padding: 6px;
+    background-color: #84c6ff;
+    color: #fff;
+    font-weight: bold;
+    font-size: 0.75rem;
+    border-radius: 15px;
+}
+
 .custom-article .card-footer img {
     border-radius: 50%;
     float: left;
