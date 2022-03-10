@@ -274,9 +274,30 @@ footer.site-footer .site-info {
     box-shadow: 1px 10px 0 rgb(0 0 0 / 15%);
 }
 
-.blog-post .share-buttons-container {
+.blog-post .blog-post-footer {
     width: 100%;
     border-top: 2px solid #f4f4f4;
+    margin-top: 1rem;
+    padding-top: 1rem;
+}
+
+.blog-post .blog-post-footer .blog-post-writer img {
+    border-radius: 50%;
+    float: left;
+    height: 50px;
+    width: 50px;
+    box-shadow: none;
+    object-fit: cover;
+}
+
+.blog-post .blog-post-footer .blog-post-writer .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.blog-post .blog-post-footer .blog-post-writer .container p {
+    margin: 0;
 }
 
 .blog-post .share-buttons-container p {
