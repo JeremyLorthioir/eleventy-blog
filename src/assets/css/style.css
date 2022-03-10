@@ -41,6 +41,8 @@ header .site-branding h1 p {
     border-bottom: 1px solid #ebebeb;
     margin-bottom: 20px;
     width: 100%;
+    display: flex;
+    justify-content: center;
 }
 
 .top-bar nav {
@@ -76,9 +78,17 @@ header .site-branding h1 p {
     text-decoration: none;
 }
 
+.top-bar .menu-toggle {
+    display: none;
+}
+
+.top-bar .menu-toggle {
+    display: none;
+}
+
 @media screen and (min-width: 769px) {
-    .top-bar .menu-toggle {
-        display: none;
+    .top-bar {
+        justify-content: start;
     }
 
     .top-bar nav .menu-top-container ul {
@@ -198,7 +208,7 @@ footer.site-footer .site-info {
     color: #222;
     margin: auto;
     padding: 0 2em;
-    width: 62em;
+    max-width: 62em;
     line-height: 1.5em;
     font-size: 16px;
     font-weight: 300;
