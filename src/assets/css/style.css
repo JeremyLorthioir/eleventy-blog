@@ -274,6 +274,26 @@ footer.site-footer .site-info {
     box-shadow: 1px 10px 0 rgb(0 0 0 / 15%);
 }
 
+.blog-post .share-buttons-container {
+    width: 100%;
+    border-top: 2px solid #f4f4f4;
+}
+
+.blog-post .share-buttons-container p {
+    font-weight: bold;
+}
+
+.blog-post .share-buttons-container .icon {
+    box-shadow: none;
+    padding: 5px;
+    width: 40px;
+    height: 40px;
+}
+
+.blog-post .share-buttons-container a:hover .icon {
+    filter: brightness(0.5);
+}
+
 /* ==========================================
   CONTACT
   ==========================================*/

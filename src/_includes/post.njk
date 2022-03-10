@@ -1,9 +1,20 @@
 --- 
 layout: layout.njk 
 ---
-<script>hljs.highlightAll();</script>
+<script>
+    hljs.highlightAll();
+</script>
 <div class="blog-post">
     <h1 class="blog-post-title">{{ title }}</h1>
 
     {{ content | safe }}
+
+    <div class="share-buttons-container">
+        <p>
+            Partager :
+            <a onclick='window.open("https://twitter.com/share?url="+window.location.href, "Twitter"); return false;'><img src="/assets/img/twitter.svg" class="icon"></a>
+            <a onclick='window.open("https://www.linkedin.com/sharing/share-offsite/?url="+window.location.href, "Linkedin"); return false;'><img src="/assets/img/linkedin.svg" class="icon"></a>
+            <a onclick='window.open("https://www.reddit.com/submit?url="+window.location.href, "Reddit"); return false;'><img src="/assets/img/reddit.svg" class="icon"></a>
+        </p>
+    </div>
 </div>
