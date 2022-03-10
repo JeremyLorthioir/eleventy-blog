@@ -41,7 +41,7 @@ fields:
     schema:
       format: markdown
   label: summary
-- name: tags
+- name: categories
   type: tag_list
   default: []
   label: Tags

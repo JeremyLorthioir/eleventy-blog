@@ -7,6 +7,10 @@ summary: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus 
   nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
 publisher_name: Jérémy Lorthioir
 tags: []
+categories:
+- Javascript
+- Bootstrap
+- Lifestyle
 
 ---
 Bonjour ceci est un premier article, soyez indulgents

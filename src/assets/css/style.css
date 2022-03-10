@@ -90,7 +90,7 @@ header .site-branding h1 p {
   FOOTER
   ==========================================*/
 footer.site-footer {
-    margin-top: 80px;
+    /* margin-top: 80px; */
 }
 
 footer.site-footer .site-info {
@@ -132,6 +132,15 @@ footer.site-footer .site-info {
     width: 100%;
     height: 350px;
     object-fit: cover;
+}
+
+.custom-article .article-tags-container .article-tag {
+    padding: 6px;
+    background-color: #84c6ff;
+    color: #fff;
+    font-weight: bold;
+    font-size: 0.75rem;
+    border-radius: 15px;
 }
 
 .custom-article .card-footer img {
@@ -263,6 +272,47 @@ footer.site-footer .site-info {
 /* IMAGES */
 .blog-post img {
     box-shadow: 1px 10px 0 rgb(0 0 0 / 15%);
+}
+
+.blog-post .blog-post-footer {
+    width: 100%;
+    border-top: 2px solid #f4f4f4;
+    margin-top: 1rem;
+    padding-top: 1rem;
+}
+
+.blog-post .blog-post-footer .blog-post-writer img {
+    border-radius: 50%;
+    float: left;
+    height: 50px;
+    width: 50px;
+    box-shadow: none;
+    object-fit: cover;
+}
+
+.blog-post .blog-post-footer .blog-post-writer .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.blog-post .blog-post-footer .blog-post-writer .container p {
+    margin: 0;
+}
+
+.blog-post .share-buttons-container p {
+    font-weight: bold;
+}
+
+.blog-post .share-buttons-container .icon {
+    box-shadow: none;
+    padding: 5px;
+    width: 40px;
+    height: 40px;
+}
+
+.blog-post .share-buttons-container a:hover .icon {
+    filter: brightness(0.5);
 }
 
 /* ==========================================

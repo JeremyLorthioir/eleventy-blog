@@ -1,9 +1,31 @@
 --- 
 layout: layout.njk 
 ---
-<script>hljs.highlightAll();</script>
+<script>
+    hljs.highlightAll();
+</script>
 <div class="blog-post">
     <h1 class="blog-post-title">{{ title }}</h1>
 
     {{ content | safe }}
+
+    <div class="blog-post-footer">
+        <div class="blog-post-writer text-muted d-flex justify-content-between bg-transparent border-top-0">
+            <img style="border-radius: 50%; float: left;" src="{{ publisher_picture }}" alt="Avatar of Jonathan Reinink">
+            <div class="container">
+                <p class="text-gray-900 leading-none">{{ publisher_name }}</p>
+                <p class="text-gray-600">
+                    {{ publication_date.getDate() }}/{{ publication_date.getMonth() + 1 }}/{{ publication_date.getFullYear() }}
+                </p>
+            </div>
+        </div>
+        <div class="share-buttons-container">
+            <p>
+                Partager :
+                <a onclick='window.open("https://twitter.com/share?url="+window.location.href, "Twitter"); return false;'><img src="/assets/img/twitter.svg" class="icon"></a>
+                <a onclick='window.open("https://www.linkedin.com/sharing/share-offsite/?url="+window.location.href, "Linkedin"); return false;'><img src="/assets/img/linkedin.svg" class="icon"></a>
+                <a onclick='window.open("https://www.reddit.com/submit?url="+window.location.href, "Reddit"); return false;'><img src="/assets/img/reddit.svg" class="icon"></a>
+            </p>
+        </div>
+    </div>
 </div>
