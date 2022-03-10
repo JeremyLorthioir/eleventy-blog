@@ -90,7 +90,7 @@ header .site-branding h1 p {
   FOOTER
   ==========================================*/
 footer.site-footer {
-    margin-top: 80px;
+    /* margin-top: 80px; */
 }
 
 footer.site-footer .site-info {
