@@ -1,5 +1,5 @@
 ---
-title: Le café créé-t-il de meilleurs développeurs ?
+title: Le café créé-t-il de meilleurs devs ?
 publication_date: 2022-02-21T23:00:00.000+00:00
 publisher_picture: "/uploads/pexels-pixabay-220453.jpg"
 header_picture: "/uploads/coffee-card-left.jpeg"
