@@ -371,3 +371,48 @@ footer.site-footer .site-info {
 .contact-form small {
     font-size: 0.75em;
 }
+
+/* ==========================================
+  ABOUT
+  ==========================================*/
+
+.social-icons .social-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 3.5rem;
+    width: 3.5rem;
+    background-color: #495057;
+    color: #fff;
+    border-radius: 100%;
+    font-size: 1.5rem;
+    margin-right: 1.5rem;
+}
+
+.social-icons .social-icon:last-child {
+    margin-right: 0;
+}
+
+.social-icons .social-icon:hover, .social-icons a:hover {
+    background-color: #bd5d38;
+}
+
+.social-icons a {
+    background-color: #495057;
+    border-color: #495057;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.social-icons a button {
+    color: #ffffff !important;
+}
+
+.dev-icons {
+    font-size: 3rem;
+}
+
+section.resume-section .resume-section-content {
+    width: 100%;
+    padding: 1rem 0;
+}
