@@ -393,7 +393,7 @@ footer.site-footer .site-info {
     margin-right: 0;
 }
 
-.social-icons .social-icon:hover, .social-icons a:hover {
+.social-icons .social-icon:hover, .social-icons a:hover, .social-icons a button:hover {
     background-color: #bd5d38;
 }
 
@@ -406,6 +406,7 @@ footer.site-footer .site-info {
 
 .social-icons a button {
     color: #ffffff !important;
+    background-color: #495057;
 }
 
 .dev-icons {
@@ -415,4 +416,9 @@ footer.site-footer .site-info {
 section.resume-section .resume-section-content {
     width: 100%;
     padding: 1rem 0;
+}
+
+section.resume-section .resume-section-content h1 {
+    text-transform: uppercase;
+    font-size: 6rem;
 }
