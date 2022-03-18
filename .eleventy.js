@@ -1,3 +1,4 @@
+const pluginSEO = require("eleventy-plugin-seo");
 /* Config file */
 module.exports = function(eleventyConfig) {
 
@@ -7,6 +8,7 @@ module.exports = function(eleventyConfig) {
     eleventyConfig.addPassthroughCopy("./src/assets/files");
     eleventyConfig.addPassthroughCopy("./uploads");
 
+    eleventyConfig.addPlugin(pluginSEO, require("./src/_data/seo.json"));
     return {
       dir: {
           input: "src",
