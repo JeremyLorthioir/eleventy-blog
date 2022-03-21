@@ -16,5 +16,11 @@
   "bugs": {
     "url": "https://github.com/JeremyLorthioir/eleventy-blog/issues"
   },
-  "homepage": "https://github.com/JeremyLorthioir/eleventy-blog#readme"
+  "homepage": "https://github.com/JeremyLorthioir/eleventy-blog#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^1.0.0"
+  },
+  "dependencies": {
+    "eleventy-plugin-seo": "^0.5.2"
+  }
 }

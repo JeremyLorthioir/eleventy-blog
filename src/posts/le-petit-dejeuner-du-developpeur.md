@@ -11,5 +11,8 @@ tags:
 categories:
 - Test
 - Javascript
+author: Jérémy LORTHIOIR
+description: Ceci est la description de l'article
+image: "/uploads/pexels-pixabay-270348.jpg"
 
 ---
