@@ -476,6 +476,10 @@ section.resume-section .timeline .timeline-card:last-child {
 /* ==========================================
   404 NOT FOUND
   ==========================================*/
+#notfound {
+    position: relative;
+    height: 100vh;
+}
 
 .notfound {
     position: absolute;
