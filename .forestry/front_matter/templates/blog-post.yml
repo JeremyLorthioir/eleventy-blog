@@ -52,5 +52,4 @@ fields:
   label: Image SEO
 pages:
 - src/posts/ajout-d-un-nouveau-post.md
-- src/posts/le-petit-dejeuner-du-developpeur.md
 - src/posts/mon-tout-premier-article-avec-forestry.md
